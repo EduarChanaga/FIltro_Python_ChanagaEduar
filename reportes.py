@@ -11,6 +11,6 @@ def reportes():
     if decision == "1":
         print(funciones.reporte_servicios())
     elif decision=="2":
+        print()
+    elif decision=="3":
         print(funciones.personas_servicios())
-    else:
-        print("")

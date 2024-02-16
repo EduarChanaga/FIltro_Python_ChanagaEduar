@@ -10,6 +10,9 @@ def reporte_servicios():
         print("Caracteristicas: ",i["caracteristicas"])
         print("")
         print("")
+      
+      
+    
         
 def personas_servicios():
     with open("usuarios.json","r") as i:
@@ -18,16 +21,19 @@ def personas_servicios():
         servicios=json.load(i)
     servicioss=servicios["movistar"]["servicios"]
     users=usuarios["movistar"]["usuarios"]
+    print("------------------------------")
     for j in servicioss:
-        print("")
-        print("------------------------------")
         print("Nombre: ", j["Nombre_servicio"]) 
-        print("")
+        
     name_servicio=str(input("Ingrese el nombre del servicio:"))
     contador=0
+    print("----> Personas <----")
     for i in users:
-        if i["servicios"]=name_servicio:
-            contar=contador+1
-    print("la cantidad de usuarios que tienen ",name_servicio)
+        
+        if i["servicios"]==name_servicio:
+            print(i["nombre"])
+            contador=contador+1
+    print("----> ",contador," <----")
+    input("Enter para continuar")
           
      

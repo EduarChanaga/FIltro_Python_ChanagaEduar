@@ -21,6 +21,7 @@ def usuario():
             "nombre":str(input("Nombre completo: ")),
             "email":str(input("Email: ")),
             "Dirrecion":str(input("Dirrecion: ")),
+            "Año":int(input("Año")
             "Categoria":"Nuevo cliente",
             "servicios":""
         }
