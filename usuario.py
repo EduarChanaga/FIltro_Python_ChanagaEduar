@@ -78,3 +78,21 @@ def usuario():
             consultas["movistar"]["consultas"].append(nueva_consulta)
             with open("consultas.json","w") as i:
                 json.dump(consultas,i,indent=4)
+        if decision2=="2":
+            nueva_consulta={
+                "Nombre_cliente":str(input("ingrese su nombre: ")),
+                "Numero_contacto":str(input("Ingrese un numero de contacto: " )),
+                "reclamacion":str(input("Ingrese su reclamacion: "))
+            }
+            consultas["movistar"]["reclamaciones"].append(nueva_consulta)
+            with open("consultas.json","w") as i:
+                json.dump(consultas,i,indent=4)
+        if decision2=="3":
+            nueva_consulta={
+                "Nombre_cliente":str(input("ingrese su nombre: ")),
+                "Numero_contacto":str(input("Ingrese un numero de contacto: " )),
+                "sugerencia":str(input("Ingrese su sugerencia: "))
+            }
+            consultas["movistar"]["sugerencias"].append(nueva_consulta)
+            with open("consultas.json","w") as i:
+                json.dump(consultas,i,indent=4)
