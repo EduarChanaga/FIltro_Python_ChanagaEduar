@@ -1,1 +1,2 @@
 def bonificacion():
+    print()

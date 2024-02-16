@@ -1,1 +1,22 @@
-
+{
+    "movistar": {
+        "usuarios": [
+            {
+                "N_identidad": "1095581647",
+                "nombre": "eduar damian chanaga gonzalez",
+                "email": "chanaga250@gmail.com",
+                "Dirrecion": "crr 11",
+                "Categoria": "Nuevo cliente",
+                "servicios": "banda ancha"
+            },
+            {
+                "N_identidad": "123",
+                "nombre": "pedro",
+                "email": "pepe",
+                "Dirrecion": "crr 11",
+                "Categoria": "Nuevo cliente",
+                "servicios": "banda"
+            }
+        ]
+    }
+}

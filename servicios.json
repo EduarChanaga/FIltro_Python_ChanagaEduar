@@ -1,0 +1,16 @@
+{
+    "movistar": {
+        "servicios": [
+            {
+                "Nombre_servicio": "banda ancha",
+                "Precio": "1000",
+                "caracteristicas": "bueno"
+            },
+            {
+                "Nombre_servicio": "banda",
+                "Precio": "100000",
+                "caracteristicas": "velocidad optima que tin que tan"
+            }
+        ]
+    }
+}

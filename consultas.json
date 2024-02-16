@@ -1,0 +1,17 @@
+{
+    "movistar": {
+        "consultas": [
+            {
+                "Nombre_cliente": "Eduar",
+                "consulta": "Como los contrato"
+            },
+            {
+                "Nombre_cliente": "eduar",
+                "Numero_contacto": "313 3143511901",
+                "consulta": "como entro :3"
+            }
+        ],
+        "reclamaciones": [],
+        "sugerencias": []
+    }
+}
