@@ -4,18 +4,11 @@
             {
                 "N_identidad": "1095581647",
                 "nombre": "eduar damian chanaga gonzalez",
-                "email": "chanaga250@gmail.com",
+                "email": "chanaga240@gmail.com",
                 "Dirrecion": "crr 11",
+                "A\u00f1o": 2000,
                 "Categoria": "Nuevo cliente",
-                "servicios": "banda"
-            },
-            {
-                "N_identidad": "123",
-                "nombre": "pedro",
-                "email": "pepe",
-                "Dirrecion": "crr 11",
-                "Categoria": "Nuevo cliente",
-                "servicios": "banda"
+                "servicios": ""
             }
         ]
     }
